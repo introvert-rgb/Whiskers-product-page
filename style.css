@@ -9,6 +9,16 @@ a {
     color: black;
 }
 
+#nav-bar ul button {
+    border: 2px dashed transparent;
+}
+
+#nav-bar ul button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 250ms ease-in-out;
+    border: 2px dashed rgba(0, 0, 0, 0.3);
+}
+
 body {
     background: linear;
     color: black;
